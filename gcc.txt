@@ -1,0 +1,11 @@
+bsq.c: In function ‘affich_map’:
+bsq.c:37:9: warning: unused variable ‘nb_col’ [-Wunused-variable]
+   37 |     int nb_col = nb_colonne(buffer);
+      |         ^~~~~~
+bsq.c: In function ‘nb_colonne’:
+bsq.c:16:23: warning: ‘i’ is used uninitialized [-Wuninitialized]
+   16 |     for (int i; buffer[i] != '\n'; i++) {
+      |                       ^
+bsq.c:16:14: note: ‘i’ was declared here
+   16 |     for (int i; buffer[i] != '\n'; i++) {
+      |              ^
